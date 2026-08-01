@@ -1,7 +1,7 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
-gemspec
 
-# for demo site
+gem "jekyll", "~> 4.4"
+gem "hitchens-theme"
+gem "jekyll-feed"
 gem "jekyll-paginate"
+gem "bigdecimal"
